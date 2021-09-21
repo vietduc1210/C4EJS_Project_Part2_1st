@@ -1,0 +1,59 @@
+/* label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+} */
+* {
+    box-sizing: border-box;
+
+}
+#logo_shopee{
+    border: 0ch;
+}
+#part2 {
+    background-color:#FB5533;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search input[type=text]{
+    width:500px;
+    height:25px;
+    border: none;
+}
+      
+.search{
+    position:absolute;
+    left:35%; 
+    margin-top: 20px;
+}
+      
+.search button{
+    background-color: #FB5533;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+} 
+
+.shopping{
+    position:absolute;
+    right:10%; 
+    margin-top: 20px;
+}
+.shopping button{
+    background-color: #FB5533;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+} 
